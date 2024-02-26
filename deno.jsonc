@@ -1,0 +1,13 @@
+{
+  "lock": false,
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "jsonx"
+  },
+  "imports": {
+    "jsonx/jsx-runtime": "jsr:@fartlabs/jsonx@0.0/std/runtime"
+  },
+  "tasks": {
+    "main": "deno run -A main.tsx"
+  }
+}
